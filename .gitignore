@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+backend/.venv311/
+venv/
+.env
+
+# Project data
+backend/chroma_db/
+backend/data/documents/**/*.pdf
+backend/data/documents/**/*.txt
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Tests
+.pytest_cache/
+htmlcov/
+
+# Local DB
+*.sqlite3
+*.db
